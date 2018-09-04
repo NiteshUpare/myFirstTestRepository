@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="need_door_pickup" label="Need Door Pickup" language="en" table="x_191971_courier_m_package_info">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>need_door_pickup</element>
+            <help>if you select "Yes" one of our courier associate will come to your home to pickup the package.&#13;
+Please provide the currect address to in below field.</help>
+            <hint/>
+            <label>Need Door Pickup</label>
+            <language>en</language>
+            <name>x_191971_courier_m_package_info</name>
+            <plural>Need Door Pickups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-13 09:30:55</sys_created_on>
+            <sys_id>f900f3430f73130086854e9ce1050e9c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Need Door Pickup</sys_name>
+            <sys_package display_value="true" source="x_191971_courier_m">36657c550ff7d30086854e9ce1050e1f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="true">36657c550ff7d30086854e9ce1050e1f</sys_scope>
+            <sys_update_name>sys_documentation_x_191971_courier_m_package_info_need_door_pickup_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-13 10:37:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

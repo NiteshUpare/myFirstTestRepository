@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Package Transist Status" max_length="40" name="x_191971_courier_m_package_transist_status" type="collection">
+        <element label="PackageID" max_length="32" name="packageid" read_only="true" reference="x_191971_courier_m_package_info" type="reference"/>
+        <element label="Package Current Location" max_length="40" name="package_current_location" type="string"/>
+        <element choice="1" label="Shipment Status" max_length="40" name="shipment_status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="packageid"/>
+        </index>
+    </element>
+</database>

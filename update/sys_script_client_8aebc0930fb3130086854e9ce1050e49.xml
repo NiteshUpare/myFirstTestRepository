@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>need_door_pickup</field>
+        <global>true</global>
+        <messages/>
+        <name>MakeAddressMandatory</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	g_form.showFieldMsg('need_door_pickup', 'if you select "Yes"one of our courier associate will\ncome to your home to pickup the package.', 'info');
+	g_form.showFieldMsg('need_door_pickup', "Please provide the currect address to in below field.", 'info');
+	if(g_form.getValue('need_door_pickup') == "Yes")
+	{
+		g_form.setVisible('address', true);
+		g_form.setMandatory('address',true);
+	}
+	else
+	{
+		g_form.setMandatory('address', false);
+		g_form.setVisible('address', false);
+	}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-13 11:39:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8aebc0930fb3130086854e9ce1050e49</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>MakeAddressMandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="true" source="x_191971_courier_m">36657c550ff7d30086854e9ce1050e1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="true">36657c550ff7d30086854e9ce1050e1f</sys_scope>
+        <sys_update_name>sys_script_client_8aebc0930fb3130086854e9ce1050e49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-13 11:55:22</sys_updated_on>
+        <table>x_191971_courier_m_package_info</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

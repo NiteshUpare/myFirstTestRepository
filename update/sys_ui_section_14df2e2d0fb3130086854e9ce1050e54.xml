@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="14df2e2d0fb3130086854e9ce1050e54" sys_domain="global" table="x_191971_courier_m_package_transist_status" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 12:59:30</sys_created_on>
+            <sys_id>14df2e2d0fb3130086854e9ce1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_191971_courier_m_package_transist_status" sys_domain="global" view="Default view">14df2e2d0fb3130086854e9ce1050e54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 12:59:30</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>packageid</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 12:59:30</sys_created_on>
+            <sys_id>94df2e2d0fb3130086854e9ce1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_191971_courier_m_package_transist_status" sys_domain="global" view="Default view">14df2e2d0fb3130086854e9ce1050e54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 12:59:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>package_current_location</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 12:59:30</sys_created_on>
+            <sys_id>18df2e2d0fb3130086854e9ce1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_191971_courier_m_package_transist_status" sys_domain="global" view="Default view">14df2e2d0fb3130086854e9ce1050e54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 12:59:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 12:59:30</sys_created_on>
+            <sys_id>98df2e2d0fb3130086854e9ce1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_191971_courier_m_package_transist_status" sys_domain="global" view="Default view">14df2e2d0fb3130086854e9ce1050e54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 12:59:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shipment_status</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 12:59:30</sys_created_on>
+            <sys_id>1cdf2e2d0fb3130086854e9ce1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_191971_courier_m_package_transist_status" sys_domain="global" view="Default view">14df2e2d0fb3130086854e9ce1050e54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 12:59:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 12:59:30</sys_created_on>
+            <sys_id>9cdf2e2d0fb3130086854e9ce1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_191971_courier_m_package_transist_status" sys_domain="global" view="Default view">14df2e2d0fb3130086854e9ce1050e54</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 12:59:30</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_191971_courier_m_package_transist_status</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 12:59:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14df2e2d0fb3130086854e9ce1050e54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_191971_courier_m_package_transist_status</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="true" source="x_191971_courier_m">36657c550ff7d30086854e9ce1050e1f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="true">36657c550ff7d30086854e9ce1050e1f</sys_scope>
+            <sys_update_name>sys_ui_section_14df2e2d0fb3130086854e9ce1050e54</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 12:59:30</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

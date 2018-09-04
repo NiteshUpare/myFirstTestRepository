@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Destination" max_length="40" name="x_191971_courier_m_destination" type="collection">
+        <element display="true" label="Destination" max_length="40" name="destination" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_191971_courier_m.HelloWorld</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>HelloWorld</name>
+        <script><![CDATA[var HelloWorld = Class.create();
+HelloWorld.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	helloWorld:function(){
+	return "Hello "	 + this.getParameter('sysparam_user_name') + "!";
+	},
+	
+	getDetails: function(){
+	
+		var id = this.getParameter('sysparm_user_id');
+		var gruser = new GlideRecord('sys_user');		
+		gruser.addQuery('sys_id', id);
+		gruser.query();	
+		
+		if(gruser.next())
+			{
+				var ar = [];
+				ar.push(gruser.getValue('first_name'));
+				ar.push(gruser.getValue('last_name'));
+				ar.push(gruser.getValue('email'));
+				ar.push(gruser.getValue('mobile_phone'));
+				
+				return JSON.stringify(ar);
+				//ar.push(gruser.name);
+				//ar.push(gruser.last_name);
+ 				//ar.email = gruser.email;
+ 				//ar.phone = gruser.mobile_phone;
+				
+				//return gruser.getValue('first_name')+","+gruser.getValue('last_name') + "," + gruser.getValue('email') + "," + gruser.getValue('mobile_phone');
+			}
+		
+	},
+	
+    type: 'HelloWorld'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 07:08:39</sys_created_on>
+        <sys_id>511ba68c0f40a30086854e9ce1050e85</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>HelloWorld</sys_name>
+        <sys_package display_value="true" source="x_191971_courier_m">36657c550ff7d30086854e9ce1050e1f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="true">36657c550ff7d30086854e9ce1050e1f</sys_scope>
+        <sys_update_name>sys_script_include_511ba68c0f40a30086854e9ce1050e85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 08:06:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

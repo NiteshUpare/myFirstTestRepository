@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="SayHelloTable" max_length="40" name="x_191971_courier_m_sayhellotable" type="collection">
+        <element label="Enter Name" max_length="40" name="enter_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Package Info">c58485510f3bd30086854e9ce1050e13</application>
+        <filter/>
+        <name>Package Infos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_191971_courier_m.package_info_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-07 10:32:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd8485510f3bd30086854e9ce1050e14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Package Infos</sys_name>
+        <sys_package display_value="true" source="x_191971_courier_m">36657c550ff7d30086854e9ce1050e1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="true">36657c550ff7d30086854e9ce1050e1f</sys_scope>
+        <sys_update_name>sys_ui_module_cd8485510f3bd30086854e9ce1050e14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-07 10:32:13</sys_updated_on>
+        <table>x_191971_courier_m_package_info</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="shipment_status" label="Shipment Status" language="en" table="x_191971_courier_m_package_transist_status">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>shipment_status</element>
+            <help/>
+            <hint/>
+            <label>Shipment Status</label>
+            <language>en</language>
+            <name>x_191971_courier_m_package_transist_status</name>
+            <plural>Shipment Status</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-08 09:12:35</sys_created_on>
+            <sys_id>dcebf96d0f33130086854e9ce1050e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Shipment Status</sys_name>
+            <sys_package display_value="true" source="x_191971_courier_m">36657c550ff7d30086854e9ce1050e1f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="true">36657c550ff7d30086854e9ce1050e1f</sys_scope>
+            <sys_update_name>sys_documentation_x_191971_courier_m_package_transist_status_shipment_status_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-08 09:12:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

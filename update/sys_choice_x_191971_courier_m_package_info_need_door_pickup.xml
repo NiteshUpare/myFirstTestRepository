@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="need_door_pickup" table="x_191971_courier_m_package_info" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>need_door_pickup</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_191971_courier_m_package_info</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-13 09:29:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cbfeb430f73130086854e9ce1050ee0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-13 09:29:37</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>need_door_pickup</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_191971_courier_m_package_info</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-13 09:29:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b39feb430f73130086854e9ce1050e16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-13 09:29:19</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>need_door_pickup</element>
+            <name>x_191971_courier_m_package_info</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-13 09:29:19</sys_created_on>
+            <sys_id>9aaf23430f73130086854e9ce1050eaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>need_door_pickup</sys_name>
+            <sys_package display_value="true" source="x_191971_courier_m">36657c550ff7d30086854e9ce1050e1f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="true">36657c550ff7d30086854e9ce1050e1f</sys_scope>
+            <sys_update_name>sys_choice_x_191971_courier_m_package_info_need_door_pickup</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-13 09:29:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
